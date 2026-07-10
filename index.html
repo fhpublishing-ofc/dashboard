@@ -935,8 +935,8 @@
                         <h3>Kisah Abadi yang Tak Pernah Usai</h3>
                         <p>Sebuah kisah tentang kehilangan, harapan, dan keberanian untuk kembali melangkah.</p>
                         <div class="price">
-                            <span class="old-price">Rp.55.000</span>
-                            <span class="new-price">Rp.25.000</span>
+                            <span class="old-price">Rp.120.000</span>
+                            <span class="new-price">Rp.89.900</span>
                         </div>
                         <button class="detail-button" data-book="kisah">Lihat Detail</button>
                     </div>
@@ -949,8 +949,8 @@
                         <small>Ft. Kiroh Tadzkiroh</small>
                         <p>Kumpulan catatan sederhana yang menemani hari-hari berat.</p>
                         <div class="price">
-                            <span class="old-price">Rp.55.000</span>
-                            <span class="new-price">Rp.25.000</span>
+                            <span class="old-price">Rp.120.000</span>
+                            <span class="new-price">Rp.89.900</span>
                         </div>
                         <button class="detail-button" data-book="catatan">Lihat Detail</button>
                     </div>
@@ -996,8 +996,8 @@
                 <img id="checkoutCover" src="images1.png" alt="Cover">
                 <div>
                     <h3 id="checkoutTitle">Kisah Abadi yang Tak Pernah Usai</h3>
-                    <p>Rp.55.000</p>
-                    <h2>Rp.25.000</h2>
+                    <p>Rp.120.000</p>
+                    <h2>Rp.89.900</h2>
                 </div>
             </div>
             <form id="checkoutForm">
@@ -1014,7 +1014,7 @@
                     <h2 style="font-weight: 800; font-size: 24px; color: var(--text);">@fh.publishing_</h2>
                     <button type="button" id="copyUsername">Salin Username</button>
                     <p style="margin-top:20px;">Nominal</p>
-                    <h2 style="font-weight: 800; font-size: 24px; color: var(--text);">Rp.25.000</h2>
+                    <h2 style="font-weight: 800; font-size: 24px; color: var(--text);">Rp.89.900</h2>
                     <button type="button" id="copyPrice">Salin Nominal</button>
                 </div>
                 <label class="checkbox">
@@ -1178,7 +1178,7 @@
             alert("Username Tako berhasil disalin.");
         };
         document.getElementById("copyPrice").onclick=()=>{
-            navigator.clipboard.writeText("25000");
+            navigator.clipboard.writeText("89900");
             alert("Nominal berhasil disalin.");
         };
 
@@ -1210,7 +1210,7 @@
             const nomor=document.getElementById("nomor").value;
             const judul=document.getElementById("checkoutTitle").innerText;
             const id=createOrderID();
-            const pesan=`Halo FH Publishing 👋\n\nSaya telah melakukan pembayaran.\n\n━━━━━━━━━━━━━━\n\n📚 Buku\n${judul}\n\n👤 Nama\n${nama}\n\n📧 Gmail\n${email}\n\n📱 WhatsApp\n${nomor}\n\n🆔 Order ID\n${id}\n\n💳 Metode\nTako\n\n👤 Username Tako\n@fh.publishing_\n\n💰 Nominal\nRp.25.000\n\n━━━━━━━━━━━━━━\n\nMohon dilakukan verifikasi.\nTerima kasih.`;
+            const pesan=`Halo FH Publishing 👋\n\nSaya telah melakukan pembayaran.\n\n━━━━━━━━━━━━━━\n\n📚 Buku\n${judul}\n\n👤 Nama\n${nama}\n\n📧 Gmail\n${email}\n\n📱 WhatsApp\n${nomor}\n\n🆔 Order ID\n${id}\n\n💳 Metode\nTako\n\n👤 Username Tako\n@fh.publishing_\n\n💰 Nominal\nRp.89.900\n\n━━━━━━━━━━━━━━\n\nMohon dilakukan verifikasi.\nTerima kasih.`;
             window.open("https://wa.me/6283815423928?text="+encodeURIComponent(pesan),"_blank");
         });
 
