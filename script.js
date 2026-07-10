@@ -163,7 +163,7 @@ document.getElementById("closeCheckout").onclick=()=>{
 
 document.getElementById("copyUsername").onclick=()=>{
 
-    navigator.clipboard.writeText("@fhpublishing");
+    navigator.clipboard.writeText("@fh.publishing_");
 
     alert("Username Tako berhasil disalin.");
 
